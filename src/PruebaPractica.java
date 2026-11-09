@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class PruebaPractica {
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
         //Declaración de constantes y variables
         final int TARIFA_U = 6, TARIFA_M = 9, TARIFA_E = 15, RECARGO_T1 = 4, RECARGO_T2 = 10;
@@ -77,6 +77,8 @@ public class PruebaPractica {
         System.out.printf("%-16s%8.2f €%n", "Recargo horas", recargoHoras);
         System.out.printf("%-16s%8.2f €%n", "Seguro", cargoSeguro);
         System.out.printf("%-16s%8.2f €%n", "Total", tarifa + recargoHoras + cargoSeguro);
+
+       System.out.println("Prueba de subida a Github");
         ;
     }
 }
