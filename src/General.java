@@ -105,8 +105,11 @@ public class General {
         final double PI = 3.14159;
         System.out.printf("Los primeros decimales de Pi son %.2f \n", PI);
 
-        /* IF TERNARIO
+         /*
+         *
+         * IF TERNARIO
          * Permite asignar una variable condicionada, como si fuese un IF simplificado
+         *
          * */
 
         String cadena;
@@ -123,5 +126,7 @@ public class General {
          * CTRL + ALT + L = Da formato automático al documento.
          * SHIFT + F9 = Abre consola de debug.
          */
+
     }
+
 }
